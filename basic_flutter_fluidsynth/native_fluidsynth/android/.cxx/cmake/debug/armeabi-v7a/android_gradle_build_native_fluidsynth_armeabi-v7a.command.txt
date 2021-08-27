@@ -1,0 +1,7 @@
+Executable : C:\Users\Irene\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\FLUTTER_PROJECTS\basic_flutter_fluidsynth\native_fluidsynth\android\.cxx\cmake\debug\armeabi-v7a
+native_fluidsynth
+jvmArgs : 
+

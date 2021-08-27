@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\FLUTTER_PROJECTS\basic_flutter_fluidsynth\native_fluidsynth\android\.cxx\cmake\debug\x86_64'
+ninja: no work to do.

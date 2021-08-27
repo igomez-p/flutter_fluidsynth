@@ -1,0 +1,10 @@
+prefix=/home/vsts/work/1/s/android-build-root/opt/android
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: FluidSynth
+Description: Software SoundFont synth
+Version: 2.2.1
+Libs: -L${libdir} -lfluidsynth
+Cflags: -I${includedir}

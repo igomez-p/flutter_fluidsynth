@@ -1,0 +1,42 @@
+{
+  "buildFiles": [
+    "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\android\\CMakeLists.txt",
+    "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\android\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\android\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_fluidsynth-Debug-arm64-v8a": {
+      "artifactName": "native_fluidsynth",
+      "buildCommand": "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\android\\.cxx\\cmake\\debug\\arm64-v8a\" native_fluidsynth",
+      "abi": "arm64-v8a",
+      "output": "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\build\\native_fluidsynth\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative_fluidsynth.so",
+      "runtimeFiles": [
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libc++_shared.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libcharset.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libffi.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libFLAC.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libfluidsynth.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libfluidsynth-assetloader.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libgio-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libglib-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libgmodule-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libgobject-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libgthread-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libiconv.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libintl.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\liboboe.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libogg.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libsndfile.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libvorbis.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libvorbisenc.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libvorbisfile.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libz.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\preloadable_libiconv.so"
+      ]
+    }
+  }
+}

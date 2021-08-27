@@ -1,0 +1,65 @@
+{
+  "stringTable": {
+    "0": "D:/FLUTTER_PROJECTS/basic_flutter_fluidsynth/native_fluidsynth/android/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/Irene/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Irene/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_fluidsynth_EXPORTS -I../../../../../ios/Classes/fluidsynth/include -I../../../../../ios/Classes/fluidsynth/.. -I../../../../../ios/Classes/fluidsynth/lib/arm64-v8a -I../../../../../ios/Classes/fluidsynth/src -I../../../../../ios/Classes/fluidsynth/src/drivers -I../../../../../ios/Classes/fluidsynth/src/synth -I../../../../../ios/Classes/fluidsynth/src/rvoice -I../../../../../ios/Classes/fluidsynth/src/midi -I../../../../../ios/Classes/fluidsynth/src/utils -I../../../../../ios/Classes/fluidsynth/src/sfloader -I../../../../../ios/Classes/fluidsynth/src/bindings -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\android\\CMakeLists.txt",
+    "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\android\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\android\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_fluidsynth-Debug-arm64-v8a": {
+      "buildCommand": "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\android\\.cxx\\cmake\\debug\\arm64-v8a\" native_fluidsynth",
+      "buildType": "debug",
+      "toolchain": "1640971861",
+      "abi": "arm64-v8a",
+      "artifactName": "native_fluidsynth",
+      "files": [
+        {
+          "src": "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\native_fluidsynth.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\build\\native_fluidsynth\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative_fluidsynth.so",
+      "runtimeFiles": [
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libc++_shared.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libcharset.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libffi.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libFLAC.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libfluidsynth.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libfluidsynth-assetloader.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libgio-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libglib-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libgmodule-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libgobject-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libgthread-2.0.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libiconv.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libintl.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\liboboe.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libogg.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libsndfile.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libvorbis.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libvorbisenc.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libvorbisfile.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\libz.so",
+        "D:\\FLUTTER_PROJECTS\\basic_flutter_fluidsynth\\native_fluidsynth\\ios\\Classes\\fluidsynth\\lib\\arm64-v8a\\preloadable_libiconv.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "1640971861": {
+      "cppCompilerExecutable": "C:\\Users\\Irene\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

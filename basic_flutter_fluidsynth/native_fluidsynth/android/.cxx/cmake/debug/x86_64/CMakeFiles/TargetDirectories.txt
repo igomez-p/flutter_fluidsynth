@@ -1,0 +1,3 @@
+D:/FLUTTER_PROJECTS/basic_flutter_fluidsynth/native_fluidsynth/android/.cxx/cmake/debug/x86_64/CMakeFiles/native_fluidsynth.dir
+D:/FLUTTER_PROJECTS/basic_flutter_fluidsynth/native_fluidsynth/android/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+D:/FLUTTER_PROJECTS/basic_flutter_fluidsynth/native_fluidsynth/android/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir

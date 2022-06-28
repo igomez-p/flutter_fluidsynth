@@ -3,18 +3,18 @@ A basic app to migrate the fluidsynth lib with flutter
 ***
 
 ## General Info
-[FuidSynth](https://www.fluidsynth.org/) is a **real-time synthesizer** based on the **SoundFont 2** specifications, which permit to convert midi notes in a signal audio without the need for a SoundFont compatible sound card.
+[FuidSynth](https://www.fluidsynth.org/) is a **real-time synthesizer** based on the **SoundFont 2** specifications, which permit convert midi notes into a signal audio without the need for a SoundFont compatible sound card.
 
 This open source software is programmed in **C language** and all the mobile applications which implemented it are only for Android, using Native Development Kit (NDK). But i needed to implement it on a Flutter app.
 
 On the other hand, using a native C or C++ code in a Dart language is not a easy task although there is a dependency to do this: [dart:ffi](https://flutter.dev/docs/development/platform-integration/c-interop)
 
-So this is why i have decided to program this basic application to help someone who needs it.
+For this reason, i have decided to program this basic application to help someone who needs it.
 
 ## Resources
 The first step is donwload the Fluidsynth for Android and Source-code files from https://github.com/FluidSynth/fluidsynth/releases
 
-Once the two folders are unzipped, we'll have four folders inside Flutter Android lib: **arm64-v8a**, **armeabi-v7a**, **x86** **and x86_64**; and from Source-code we are going to need only the **src** folder. Later, we copy the src folder in flutter folder remaining as follow:
+Once the two folders are unzipped, we will have four folders inside Flutter Android lib: **arm64-v8a**, **armeabi-v7a**, **x86** **and x86_64**; and from Source-code we are going to need only the **src** folder. Later, we copy the src folder in flutter folder remaining as follow:
 
 ```
 fluidsynth/
@@ -23,16 +23,16 @@ fluidsynth/
     src/
 ```
 
-Also should have the **Android Studio** and **Flutter** installed on your PC and create a new Flutter project.
+Also you should have the **Android Studio** and **Flutter** installed on your PC and create a new Flutter project.
 
 ## Implementation
 
 ### Generate the plugin
-At the project terminal we should to corroborate the route of the project. Then, we create the plugin with the following command:
+At the project terminal we should corroborate the route of the project. Then, we create the plugin with the following command:
 ```sh
 flutter create --platforms=android,ios --template=plugin native_fluidsynth
 ```
-A new folder *native_fluidsynth* will be create in our project. To avoid compilation problems, we comment the .dart code that comes by default in the test folder of the generated plugin.
+A new folder *native_fluidsynth* will be create in our project. To avoid compilation problems, we comment the .dart code by default in the test folder of the generated plugin.
 
 From now on, in order not to confuse directories, we will call **NATIVE\_DIR** the one corresponding to the plugin and **PROJECT\_DIR** the general one of the project; where the second includes the first.
 
@@ -71,7 +71,7 @@ android {
 }
 ```
 
-We can now fill our [native_fluidsynth.cpp](https://github.com/igomez-p/flutter_fluidsynth/blob/main/basic_flutter_fluidsynth/native_fluidsynth/ios/Classes/native_fluidsynth.cpp) file with the calls to fluidsynth that interest us.
+We can now fill our [native_fluidsynth.cpp](https://github.com/igomez-p/flutter_fluidsynth/blob/main/basic_flutter_fluidsynth/native_fluidsynth/ios/Classes/native_fluidsynth.cpp) file with the required calls to fluidsynth.
 
 ### Back to Dart
 Now, we are going to call the C functions from a new *dart* file. The [native_fluidsynth.dart](https://github.com/igomez-p/flutter_fluidsynth/blob/main/basic_flutter_fluidsynth/lib/native_fluidsynth.dart) that we have to create is at **PROJECT\_DIR/lib/** path.
@@ -89,7 +89,7 @@ flutter:
         - assets/sndfnt/sndfnt.sf2
 ```
 
-Finally, to start the sound with fluidsynth, it is necessary to **load it in the cache** beforehand. To do this, in our [main.dart](https://github.com/igomez-p/flutter_fluidsynth/blob/main/basic_flutter_fluidsynth/lib/main.dart) we create the following function that requires the use of the **path_provider** dependency (see final [pubspec.yaml](https://github.com/igomez-p/flutter_fluidsynth/blob/main/basic_flutter_fluidsynth/pubspec.yaml)).
+Finally, to start the sound with fluidsynth, it is necessary to **load it in the cache** beforehand. In our [main.dart](https://github.com/igomez-p/flutter_fluidsynth/blob/main/basic_flutter_fluidsynth/lib/main.dart) we create the following function that requires the use of the **path_provider** dependency (see final [pubspec.yaml](https://github.com/igomez-p/flutter_fluidsynth/blob/main/basic_flutter_fluidsynth/pubspec.yaml)).
 
 ```dart
 Future<void> loadFluidsynthFile(String fileName) async {
@@ -102,5 +102,5 @@ Future<void> loadFluidsynthFile(String fileName) async {
 }
 ```
 
-**We can now use the fluidsynth functions in flutter.** In this app, the audio driver is initialized and the sound is loaded into the main program, and the different buttons on the screen will be in charge of generating the different notes.
+**We can now use the fluidsynth functions in flutter.** In this app, the audio driver is initialized and the sound is loaded into the main program, and the different buttons on the screen will be charging the different notes.
 
